@@ -12,7 +12,7 @@ batch:
 phases:
   install:
     runtime-versions:
-      golang: 1.13
+      golang: 1.15
   pre_build:
     commands:
       - echo 'prebuild'
